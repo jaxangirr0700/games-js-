@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/css/minified/main.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="users">
+        <div class="user1">
+          <h1 class="user_h1_1">user1: <span class="span1"> 0 </span></h1>
+          <h4 class="h4_random1 h4_random">0</h4>
+          <button class="btn1"></button>
+          <button class="hold1">Hold</button>
+        </div>
+        <div class="user2">
+          <h1 class="user_h1_2">user2: <span class="span2"> 0 </span></h1>
+          <h4 class="h4_random2 h4_random">0</h4>
+          <button class="btn2"></button>
+          <button class="hold2">Hold</button>
+        </div>
+      </div>
+
+      <div class="game-rps">
+        <div class="big-box">
+          <div class="game">
+            <h1 class="title">Rock Paper Scissors</h1>
+
+            <p class="expo">make your choice!</p>
+
+            <div class="choice-container_box">
+              <button class="choice-btn" id="rbtn">
+                <span class="sticker"> ✊ </span>
+
+                <span id="rock" class="btn-name"> Rock </span>
+              </button>
+              <button class="choice-btn" id="pbtn">
+                <span class="sticker"> ✋ </span>
+
+                <span id="paper" class="btn-name"> Paper </span>
+              </button>
+              <button class="choice-btn" id="sbtn">
+                <span class="sticker"> ✌️ </span>
+                <span id="scissor" class="btn-name"> Scissors </span>
+              </button>
+            </div>
+
+            <div class="choose-sect">
+              <span class="choose">
+                You choose:
+                <span id="chooseUser"> - </span>
+              </span>
+              <span class="choose">
+                Computer choose:
+                <span id="choosePc"> - </span>
+              </span>
+            </div>
+
+            <div class="content-end_box">
+              <span id="result"> Let's play </span>
+
+              <button id="again">
+                <img src="./imgs/play.svg" alt="Play Again" />
+                <span> Play again </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container wbox">
+        <div class="wrapper">
+          <form>
+            <input type="text" placeholder="Add a new task" />
+            <button class="button-plus">
+              <img src="./imgs/plus.png" alt="plus" />
+            </button>
+          </form>
+          <div class="tasks">
+            <h4 class="task-todo">Task to do <span>-4</span></h4>
+            <ul class="ul1"></ul>
+          </div>
+          <div class="completed">
+            <h4 class="task-todo">Done <span>-1</span></h4>
+
+            <ul class="ul2">
+              <!-- <li class="completed"> -->
+              <!-- <p>To study React fundamentals</p> -->
+              <!-- <div>
+            <button class="button">
+              <img src="./imgs/ptichka.png" alt="ptichka" />
+            </button>
+            <button class="button">
+              <img src="./imgs/korzinka.png" alt="korzinka" />
+            </button>
+          </div> -->
+              <!-- </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
